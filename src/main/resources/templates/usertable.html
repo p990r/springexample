@@ -1,0 +1,23 @@
+<table id="usertemplate">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td><button onclick="editUser(\'' + user.id + '\')">Edit</button></td>
+            <td><button onclick="deleteUser(\'' + user.id + '\')">Delete</button></td>
+        </tr>
+
+    </tbody>
+</table>
+<p><button onclick="addUser()">Add a new user</button></p>
