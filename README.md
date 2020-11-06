@@ -5,7 +5,7 @@ More features are scheduled to be added in the future.
 
 ### Current Version
 This version includes the following features:
-* Index page displays SQL user table
+* Index page displays a persistent user table
 * Add a new user to user table
 * User table has Edit and Delete user options
 
