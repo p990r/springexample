@@ -16,4 +16,5 @@ Image: Usertable displayed on index page
 To run the code follow these instructions:
 1. Clone the project
 1. Open terminal and navigate to project's directory
-1. Run the command: mvn clean install && java -jar target/spring-boot-0.0.1-SNAPSHOT.jar 
+1. Run the command: `mvn clean install && java -jar target/spring-boot-0.0.1-SNAPSHOT.jar`
+1. Open your browser and go to: `localhost:8080`
